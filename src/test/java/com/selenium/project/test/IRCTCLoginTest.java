@@ -25,7 +25,7 @@ public class IRCTCLoginTest {
 		login.windowSwitch(pw);
 		Select select=null;
 		IRCTCFlightSearchPage searchPage = new IRCTCFlightSearchPage(driver);
-		Thread.sleep(3000);
+		Thread.sleep(3000);;
 		Assert.assertTrue(searchPage.checkOneWayRadio());
 		Assert.assertFalse(searchPage.checkTwoWayRadio());
 		searchPage.enterSource("delhi");
