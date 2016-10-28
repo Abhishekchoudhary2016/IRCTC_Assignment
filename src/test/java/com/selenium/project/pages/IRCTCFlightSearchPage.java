@@ -16,7 +16,7 @@ public class IRCTCFlightSearchPage {
 	private By  Source=By.xpath("//input[@id='origin']");
 	private By Destination =By.xpath("//input[@id='destination']");
 	private By dateButton =By.xpath("//input[@name='departDate']/following-sibling::img");
-	private By date =By.xpath("//div[@id='ui-datepicker-div']/div[1]//a[text()='23']");;
+	private By date =By.xpath("//div[@id='ui-datepicker-div']//a[text()='20']");;
 	private By number_Adult= By.xpath("//select[@id='noOfAdult']");
 	private By number_child=By.xpath("//select[@id='noOfChild']");
 	private By number_infant= By.xpath("//select[@id='noOfInfant']");
